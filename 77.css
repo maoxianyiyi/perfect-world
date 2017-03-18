@@ -114,6 +114,7 @@ header{/*header开始*/
 }
 .item1 span:hover{
 	background-color: #F61412;
+	transition: 1s;
 }/*section2结束*/
 .two{/*section3开始*/
 	width: 100%;
@@ -280,6 +281,9 @@ header{/*header开始*/
 	font: 16px 微软雅黑;
 	cursor: pointer;
 }
+::-Webkit- input-placeholder{
+	text-indent: 20px;
+}
 .grop button{
 	display: inline-block;
 	height: 34px;
@@ -288,6 +292,7 @@ header{/*header开始*/
 	font: 18px 微软雅黑;
 	background-color: #C93333;
 	border-style:none;
+	word-spacing: 5px;
 }
 .grop button:hover{
 	background-color: #E82F2F;
@@ -407,3 +412,415 @@ header{/*header开始*/
 	color: #868383;
 	line-height: 30px;
 }/*section5结束*/
+.tex{
+	display: inline-block;
+	height: 580px;
+	width: 70%;
+	background: url(image/pic7.jpg) no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+.tex p{
+	font-family: 微软雅黑;
+	color:#FFFFFF;
+}
+.tex p:nth-child(1){
+	font-size: 50px;
+	position: relative;
+	top: 100px;
+}
+.tex p:nth-child(2){
+	font-size: 157px;
+	position: relative;
+	top: 70px;
+}
+.tex p:nth-child(3){
+	font-size: 22px;
+	position: relative;
+	top: 70px;
+}
+.tex p:nth-child(4){
+	font-size: 22px;
+	position: relative;
+	top: 80px;
+}
+.triangle{
+	border-top: 25px solid transparent;
+	border-right: 50px solid #FCF9F9;
+	border-bottom: 25px solid transparent;
+	position: relative;
+	top: -70px;
+	right: 0px;
+}
+.dule{
+	display: inline-block;
+	float: right;
+	width: 30%;
+
+}
+.dule1{
+	width: 300px;
+	position: relative;
+	top: 240px;
+	left: 23%;
+}
+.dule1 p{
+	font-family:微软雅黑;
+	color: #848484;
+	font-size: 14px;
+	line-height: 30px;
+}
+.dule1 p:first-child{
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	color: #050505;
+}
+.dule12{
+	text-align: center;
+	width: 105px;
+	height: 34px;
+	border:1px solid #AD3A3A;
+	margin: 0 auto;
+	position: relative;
+	top: 280px;
+}
+.dule12 p{
+	font-size: 16px;
+	text-align: center;
+	line-height: 34px;
+	color: #AD3A3A;
+	font-family: 微软雅黑;
+	cursor: pointer;
+
+}
+.dule12:hover{
+	background-color: #AD3A3A;
+}
+.dule12 p:hover{
+	color: #FFFFFF;
+}
+.dule1 span{
+	color: #F60E0E;
+}
+.dule2{
+	display: none;
+}
+.dule3{
+	display: none;
+}
+.duk{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	top: 300px;
+}
+.duk input[type="radio"]{
+	z-index:10;
+	opacity: 0;
+	position: relative;
+	left: 30px;
+}
+.duk .ance{
+	display: inline-block;
+	position: relative;
+	left: -22px;
+	height: 10px;
+	width: 10px;
+	border:1px solid #5D4343;
+	border-radius: 5px;
+}
+.duk .ance:checked~.lell{
+	background-color: #6D4A4A;
+}
+/*6结束*/
+.seven{
+	height: 530px;
+}
+.winner{
+	width: 68%;
+	float: left;
+	font-size: 0;
+}
+.red{
+	background-color: #e8504e;
+	width: 50%;
+	height: 530px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+.red .mis{
+	position: relative;
+	top: 200px;
+}
+.red .mis p{
+	font:25px 微软雅黑;
+	color: #FFFFFF;
+	line-height: 40px;
+}
+.red .mis span{
+	width: 50px;
+	border-top:3px solid #FFFFFF;
+	display: inline-block;
+}
+.red .mis span:hover{
+	width: 252px;
+	transition: 1s;
+}
+.red .buton{
+	width: 170px;
+	height: 42px;
+	display: inline-block;
+	border:1px solid #FFFFFF;
+	position: relative;
+	top: 220px;
+	font: 16px 微软雅黑;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.red .buton p{
+	line-height: 42px;
+}
+.red .buton:hover{
+	background: #FBFBFB;
+	color: #e8504e;
+	transition: 0.7s;
+}
+.red .buton p:hover{
+	color: #D55353;
+	transition: 0.7s;
+}
+.white{
+	width: 50%;
+	height: 530px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.white .mis{
+	position: relative;
+	top: 180px;
+	text-align: center;
+	line-height: 40px;
+}
+.white .mis p{
+	font:25px 微软雅黑;
+	color: #0F0E0E;
+	line-height: 40px;
+}
+.white .mis span{
+	width: 50px;
+	border-top:3px solid #0B0B0B;
+	display: inline-block;
+}
+.white .mis span:hover{
+	width: 250px;
+	transition: 1s;
+}
+.white .buton{
+	width: 170px;
+	height: 42px;
+	display: inline-block;
+	border:1px solid #e7504d;
+	position: relative;
+	top: 180px;
+	font: 16px 微软雅黑;
+	color: #e7504d;
+	cursor: pointer;
+}
+.white .buton p{
+	line-height: 42px;
+	text-align: center;
+}
+.white .buton:hover{
+	background-color:#e7504d;
+	transition: 0.7s; 
+}
+.white .buton p:hover{
+	color: #FFFFFF;
+	transition: 0.7s;
+}
+.pag{
+	width: 32%;
+	height: 530px;
+	float: right;
+	background: url(image/pic8.jpg) no-repeat;
+	background-size: 100%;
+}
+.las{
+	display: inline-block;
+	border-top: 30px solid transparent;
+	border-left: 50px solid #FFFFFF;
+	border-bottom: 30px solid transparent;
+	position: relative;
+	top: 300px;
+}/*7结束*/
+.eight{
+	height: 750px;
+	text-align: center;
+	font-family: 微软雅黑;
+	width: 100%;
+}
+.mes{
+	height: 300px;
+}
+.top1{
+	height: 100px;
+	position: relative;
+	top: 100px;
+}
+.top1 p:first-child{
+	font-size: 21px;
+}
+.top1 p:last-child{
+	font-size: 12px;
+	color: #AEACAC;
+	margin-top: 10px;
+}
+.top1 span{
+	width: 50px;
+	border-top:3px solid #FB2828;
+	text-align: center;
+	line-height: 100px;
+	display: inline-block;
+}
+.top1 span:hover{
+	width: 200px;
+	transition: 1s;
+}
+.left{
+	height: 320px;
+	width: 600px;
+	display: inline-block;
+}
+.left .mos{
+	width: 300px;
+	height: 100px;
+	text-align: left;
+}
+.left .mos p:nth-child(1){
+	font-size: 16px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.left .mos p:nth-child(2){
+	font-size: 12px;
+	color: #746F6E;
+}
+.left .mos span{
+	font-size: 13px;
+	float: right;
+	cursor: pointer;
+}
+.right{
+	width: 640px;
+	height: 320px;
+	display: inline-block;
+	vertical-align: top;
+}
+.right form input[type="text"]{
+	width: 300px;
+	height: 35px;
+	border: 0px;
+	box-sizing: border-box;
+	background-color: #F1EEEE;
+	margin: 10px 6px 6px 6px;
+	font: 14px 微软雅黑;
+	color: #564545;
+	padding: 10px;
+}
+.right form textarea{
+	height: 150px;
+	width: 620px;
+	resize: none;
+	border: 0;
+	background-color: #F1EEEE;
+	box-sizing: border-box;
+	margin-top: 10px;
+	padding:10px;
+	font: 16px 微软雅黑;
+}
+.right form input[type="button"]{
+	height: 40px;
+	width: 620px;
+	border: 0;
+	background-color: #F1EEEE;
+	box-sizing: border-box;
+	margin-top: 10px; 
+	font: 16px 微软雅黑;
+	color: #A8A6A6;
+	cursor: pointer;
+}/*8结束*/
+.nine{
+	height: 360px;
+	width: 100%;
+	background-color: #32353E;
+	font-family: 微软雅黑;
+	text-align: center;
+}
+.nine-1 p{
+	color: #FCF5F5;
+	position: relative;
+	top: 100px;
+}
+.nine-1 p:first-child{
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+.nine-1 p:last-child{
+	font-size: 14px;
+}
+.nine-2{
+	position: relative;
+	top: 130px;
+}
+.nine-2 input[type="text"]{
+	width: 430px;
+	height: 46px;
+	font: 16px 微软雅黑;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.nine-2 input[type="submit"]{
+	width: 81px;
+	height: 46px;
+	margin-left: -5px;
+	border: 0px;
+	background-color: #6F7278;
+	font: 15px 微软雅黑 ;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.nine-3{
+	position: relative;
+	top: 160px;
+}
+.nine-3 img{
+	padding-right: 15px;
+	width: 25px;
+	height:25px;
+	cursor: pointer;
+}
+.nine-3 img:hover{
+	width: 30px;
+	height: 30px;
+	transition: 1s ease-in-out;;
+}/*9结束*/
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #303039;
+	font: 13px 宋体;
+	color: #FFFFFF;
+}
+footer p:first-child{
+	position: relative;
+	top: 20px;
+	padding-left: 100px;
+}
+footer p:last-child{
+	float: right;
+	padding-right: 100px;
+}
